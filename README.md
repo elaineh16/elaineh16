@@ -1,7 +1,5 @@
 # Hi, I'm Elaine 👋
 
-Cornell student building AI products, retrieval systems, and fintech tools — usually shipped end to end, from model to UI.
-
 🌐 [elaineh16.github.io](https://elaineh16.github.io) · 💼 [LinkedIn](https://www.linkedin.com/in/elaine-hong-cornell) · ✉️ elainehong116@gmail.com
 
 ---
