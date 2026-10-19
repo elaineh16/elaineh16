@@ -1,4 +1,4 @@
-# Hi, I'm Elaine Hong 👋
+# Hi, I'm Elaine 👋
 
 **CS + Operations Research @ Cornell '28** · Software & ML engineering, LLM evaluation, and applied optimization.
 
@@ -28,7 +28,6 @@ Ran a 7-condition RAG ablation on 133 FinanceBench questions; showed ROUGE-L und
 
 - **AI for Combinatorial Optimization** <sub>Aug 2026 – present</sub>: LLM reasoning on open problems in antimatroid convexity; drivers of runtime variability in mixed-integer programming solvers
 - **LLM Reasoning in Chess** <sub>Aug 2025 – Jun 2026</sub>: benchmarked LLMs against Stockfish across 10,000+ positions and 20+ prompting strategies
-- **[AgentTrace](https://github.com/elaineh16/Research-Idea)**: a process-level reliability benchmark for LLM agents
 
 ### 🧰 Skills
 
