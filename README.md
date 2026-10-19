@@ -1,32 +1,39 @@
-# Hi, I'm Elaine 👋
+# Hi, I'm Elaine Hong 👋
 
-🌐 [elaineh16.github.io](https://elaineh16.github.io) · 💼 [LinkedIn](https://www.linkedin.com/in/elaine-hong-cornell)
+**CS + Operations Research @ Cornell '28** · Software & ML engineering, LLM evaluation, and applied optimization.
+
+🌐 [elaineh16.github.io](https://elaineh16.github.io) · 💼 [LinkedIn](https://www.linkedin.com/in/elaine-hong-cornell) · ✉️ eh698@cornell.edu
 
 ---
 
-### 🔬 Research
+### 💼 Experience
 
-**[FinDocRetrieval](https://github.com/elaineh16/Research-FinancialDocumentRetrieval)** — Cost-aware RAG ablation study on SEC filings (10-K, 10-Q, earnings calls). Hybrid retrieval (BM25 + dense + reranking + query expansion) lifted token-level F1 from **0.52 → 0.66**; reranking alone gave the best accuracy per dollar.<br>
-`Python` `RAG` `LLM evaluation`
+**Software Engineer Intern · FinMD** <sub>Summer 2026</sub><br>
+Live analytics dashboard for three products with server-side aggregation and pagination (−60% p50 page load), PostgreSQL functions for physician identity resolution, and tenant-scoped APIs hardened with row-level security.
 
-**[AgentTrace](https://github.com/elaineh16/Research-Idea)** — A process-level benchmark for LLM agent reliability: six step-level metrics across 500 enterprise workflow tasks, showing that final-answer accuracy and process reliability diverge across frontier models.<br>
-`Python` `LLM agents` `benchmarks`
+**Machine Learning Engineer Intern · Anote AI** <sub>Summer 2026</sub><br>
+Ran a 7-condition RAG ablation on 133 FinanceBench questions; showed ROUGE-L understated numeric accuracy by 10–16×, with semantic chunking reaching 34.8% exact match. → [FinDocRetrieval](https://github.com/elaineh16/Research-FinancialDocumentRetrieval)
 
-### 🛠️ Projects
+### 🏆 Projects
 
 | Project | What it does | Stack |
 |---|---|---|
-| **[Navidate](https://github.com/elaineh16/NaviDate)** · [live](https://navidate.us) | Voice-driven date planner for Ithaca: Gemini builds a timed itinerary checked against hours, budget, weather and route, then follows up over iMessage. *BigRed//Hacks '26* | Next.js, Gemini, Grok Voice, Google Places |
-| **[TheWardrobeDB](https://github.com/elaineh16/TheWardrobeDB)** | Full-stack rental system for Cornell's Wardrobe club, replacing a set of manual Google Sheets with live inventory, requests and a staff dashboard | FastAPI, SQLAlchemy, Next.js, TypeScript |
-| **[Trading Backtester](https://github.com/elaineh16/trading_backtester)** | Modular framework for backtesting MA / RSI / MACD strategies with Sharpe, drawdown and win-rate analysis | Python, pandas, yfinance, Jupyter |
-| **[Guitar Super Power](https://github.com/elaineh16/bigredhackguitar)** | Rhythm game that generates guitar charts from any MP3 with Gemini and is played with hand gestures. *BigRed//Hacks '25* | React, Socket.IO, OpenCV, MediaPipe |
-| **[ELAINECRAFT](https://github.com/elaineh16/elaineh16.github.io)** · [live](https://elaineh16.github.io) | My portfolio, built as a Minecraft-style game with seasonal campus scenery | Next.js, TypeScript |
-| **[Income Verify](https://github.com/elaineh16/income-verify)** · [live](https://income-verify.vercel.app) | Client-side PDF income verification with conservative, deterministic extraction rules | JavaScript, pdf.js |
+| **[Bear Escape](https://github.com/elaineh16/BigRedHack25)** · [live](https://bearly-running.vercel.app) | 🥇 **BigRed//Hacks winner: Best Use of Gemini + Best UI** (200+ participants). Multiplayer rhythm game with Gemini-generated beatmaps and OpenCV motion controls | React, TypeScript, Python, Gemini, OpenCV, SpaceTimeDB |
+| **[NaviDate](https://github.com/elaineh16/NaviDate)** · [live](https://navidate.us) | Ithaca date planner with web, voice and iMessage interfaces sharing one validated planner; Gemini sequences nearby places into timed itineraries | Next.js, TypeScript, Supabase, Gemini, Google Maps |
+| **[TheWardrobeDB](https://github.com/elaineh16/TheWardrobeDB)** | Full-stack rental system for Cornell's Wardrobe club, replacing manual spreadsheets with live inventory and a staff dashboard | FastAPI, SQLAlchemy, Next.js |
+| **[Trading Backtester](https://github.com/elaineh16/trading_backtester)** | Modular framework for backtesting MA / RSI / MACD strategies with Sharpe, drawdown and win-rate analysis | Python, pandas, yfinance |
+| **[ELAINECRAFT](https://github.com/elaineh16/elaineh16.github.io)** · [live](https://elaineh16.github.io) | My portfolio, built as a Minecraft-style game | Next.js, TypeScript |
 
-### 🧰 Toolbox
+### 🔬 Research · Cornell Engineering
 
-**Languages:** Python · TypeScript · JavaScript · SQL<br>
-**AI / data:** LLM APIs (Gemini, Grok), RAG pipelines, evaluation design, pandas<br>
-**Web:** Next.js · React · FastAPI · Tailwind · Vercel
+- **AI for Combinatorial Optimization** <sub>Aug 2026 – present</sub>: LLM reasoning on open problems in antimatroid convexity; drivers of runtime variability in mixed-integer programming solvers
+- **LLM Reasoning in Chess** <sub>Aug 2025 – Jun 2026</sub>: benchmarked LLMs against Stockfish across 10,000+ positions and 20+ prompting strategies
+- **[AgentTrace](https://github.com/elaineh16/Research-Idea)**: a process-level reliability benchmark for LLM agents
 
-📈 Keeping sharp on algorithms: [coding-submissions](https://github.com/elaineh16/coding-submissions)
+### 🧰 Skills
+
+**Languages:** Python · C++ · TypeScript · JavaScript · Java · SQL · C<br>
+**Frameworks & AI:** React · Next.js · FastAPI · LangChain · RAG pipelines · LLM evaluation · Pandas · NumPy · OpenCV<br>
+**Data & infra:** PostgreSQL · MySQL · Redis · Docker · AWS EC2 · REST APIs · WebSockets · Linux
+
+🤺 NCAA Division I varsity fencer · Conference Director, Society of Women Engineers at Cornell
